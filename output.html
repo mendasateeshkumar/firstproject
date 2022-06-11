@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h3><form action="submit" method="POST">
+        {% csrf_token %}
+                <label>Enter your name:</label><input type="text" name='name' max_length="35"><br><br>
+
+        <label>Enter your phone number:</label><input type="text" name='phno' max_length="35"><br><br>
+
+             <label>Enter your mail-id:</label><input type="text"name='mail' max_length="35"><br><br>
+
+            <label>Enter your password:</label><input type="text"name='password' max_length="35"><br><br>
+
+        <input type="submit" value="submit">
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+    </h3></form> </center>
+</body>
+</html>

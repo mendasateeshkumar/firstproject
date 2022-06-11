@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><center><h2><form action="showdelete" method="POST">
+    {% csrf_token %}
+  <label>Enter your book name:</label>  <input type="text" name="deletenew"><br><br><input type="submit" value="delete"></form><br><br>
+</center> </h2>   
+</body>
+</html>
